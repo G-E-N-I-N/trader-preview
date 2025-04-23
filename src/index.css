@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-navy-50: #f0f4f9;
+  --color-navy-100: #d9e2f0;
+  --color-navy-200: #b3c6e0;
+  --color-navy-300: #8ca9d0;
+  --color-navy-400: #668dc1;
+  --color-navy-500: #4070b1;
+  --color-navy-600: #345a8d;
+  --color-navy-700: #294469;
+  --color-navy-800: #1e2e46;
+  --color-navy-900: #0f172a;
+  --color-navy-950: #070d18;
+  
+  --color-gold-50: #fffbeb;
+  --color-gold-100: #fef3c7;
+  --color-gold-200: #fde68a;
+  --color-gold-300: #fcd34d;
+  --color-gold-400: #fbbf24;
+  --color-gold-500: #f59e0b;
+  --color-gold-600: #d97706;
+  --color-gold-700: #b45309;
+  --color-gold-800: #92400e;
+  --color-gold-900: #78350f;
+  --color-gold-950: #451a03;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-navy-900 bg-white;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer utilities {
+  .bg-navy-50 { background-color: var(--color-navy-50); }
+  .bg-navy-100 { background-color: var(--color-navy-100); }
+  .bg-navy-200 { background-color: var(--color-navy-200); }
+  .bg-navy-300 { background-color: var(--color-navy-300); }
+  .bg-navy-400 { background-color: var(--color-navy-400); }
+  .bg-navy-500 { background-color: var(--color-navy-500); }
+  .bg-navy-600 { background-color: var(--color-navy-600); }
+  .bg-navy-700 { background-color: var(--color-navy-700); }
+  .bg-navy-800 { background-color: var(--color-navy-800); }
+  .bg-navy-900 { background-color: var(--color-navy-900); }
+  .bg-navy-950 { background-color: var(--color-navy-950); }
+  
+  .text-navy-50 { color: var(--color-navy-50); }
+  .text-navy-100 { color: var(--color-navy-100); }
+  .text-navy-200 { color: var(--color-navy-200); }
+  .text-navy-300 { color: var(--color-navy-300); }
+  .text-navy-400 { color: var(--color-navy-400); }
+  .text-navy-500 { color: var(--color-navy-500); }
+  .text-navy-600 { color: var(--color-navy-600); }
+  .text-navy-700 { color: var(--color-navy-700); }
+  .text-navy-800 { color: var(--color-navy-800); }
+  .text-navy-900 { color: var(--color-navy-900); }
+  .text-navy-950 { color: var(--color-navy-950); }
+  
+  .bg-gold-50 { background-color: var(--color-gold-50); }
+  .bg-gold-100 { background-color: var(--color-gold-100); }
+  .bg-gold-200 { background-color: var(--color-gold-200); }
+  .bg-gold-300 { background-color: var(--color-gold-300); }
+  .bg-gold-400 { background-color: var(--color-gold-400); }
+  .bg-gold-500 { background-color: var(--color-gold-500); }
+  .bg-gold-600 { background-color: var(--color-gold-600); }
+  .bg-gold-700 { background-color: var(--color-gold-700); }
+  .bg-gold-800 { background-color: var(--color-gold-800); }
+  .bg-gold-900 { background-color: var(--color-gold-900); }
+  .bg-gold-950 { background-color: var(--color-gold-950); }
+  
+  .text-gold-50 { color: var(--color-gold-50); }
+  .text-gold-100 { color: var(--color-gold-100); }
+  .text-gold-200 { color: var(--color-gold-200); }
+  .text-gold-300 { color: var(--color-gold-300); }
+  .text-gold-400 { color: var(--color-gold-400); }
+  .text-gold-500 { color: var(--color-gold-500); }
+  .text-gold-600 { color: var(--color-gold-600); }
+  .text-gold-700 { color: var(--color-gold-700); }
+  .text-gold-800 { color: var(--color-gold-800); }
+  .text-gold-900 { color: var(--color-gold-900); }
+  .text-gold-950 { color: var(--color-gold-950); }
+  
+  .border-navy-50 { border-color: var(--color-navy-50); }
+  .border-navy-100 { border-color: var(--color-navy-100); }
+  .border-navy-200 { border-color: var(--color-navy-200); }
+  .border-navy-300 { border-color: var(--color-navy-300); }
+  .border-navy-400 { border-color: var(--color-navy-400); }
+  .border-navy-500 { border-color: var(--color-navy-500); }
+  .border-navy-600 { border-color: var(--color-navy-600); }
+  .border-navy-700 { border-color: var(--color-navy-700); }
+  .border-navy-800 { border-color: var(--color-navy-800); }
+  .border-navy-900 { border-color: var(--color-navy-900); }
+  .border-navy-950 { border-color: var(--color-navy-950); }
+}
